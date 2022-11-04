@@ -1,0 +1,52 @@
+@import './abstract/_base.scss';
+
+body {
+  background: $dark-blue;
+  display: flex;
+  justify-content: center;
+}
+
+.advice {
+  background: $dark-gray;
+  padding: 50px 24px;
+  margin-top: 15vh;
+  width: 80%;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+
+  &-info {
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: $neon-green;
+    margin-bottom: 30px;
+  }
+
+  &-phrase {
+    color: $light-cyan;
+    font-size: 28px;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+
+  &-roll {
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    border-radius: 50%;
+    background: $neon-green;
+    border: none;
+    display: flex;
+    transform: translateY(50%);
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

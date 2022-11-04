@@ -1,0 +1,13 @@
+$light-cyan: hsl(193, 38%, 86%);
+$neon-green: hsl(150, 100%, 66%);
+
+$gray: hsl(217, 19%, 38%);
+$dark-gray: hsl(217, 19%, 24%);
+$dark-blue: hsl(218, 23%, 16%);
+
+$principal-font: 'Manrope', sans-serif;
+
+body {
+  font-weight: 800;
+  font-family: $principal-font !important;
+}

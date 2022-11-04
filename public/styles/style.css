@@ -1,0 +1,51 @@
+body {
+  font-weight: 800;
+  font-family: "Manrope", sans-serif !important;
+}
+
+body {
+  background: hsl(218deg, 23%, 16%);
+  display: flex;
+  justify-content: center;
+}
+
+.advice {
+  background: hsl(217deg, 19%, 24%);
+  padding: 50px 24px;
+  margin-top: 15vh;
+  width: 80%;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.advice-info {
+  font-family: sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 12px;
+  color: hsl(150deg, 100%, 66%);
+  margin-bottom: 30px;
+}
+.advice-phrase {
+  color: hsl(193deg, 38%, 86%);
+  font-size: 28px;
+  text-align: center;
+  line-height: 35px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.advice-roll {
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+  border-radius: 50%;
+  background: hsl(150deg, 100%, 66%);
+  border: none;
+  display: flex;
+  transform: translateY(50%);
+}
+.advice-roll:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
