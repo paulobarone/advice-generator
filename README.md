@@ -1,7 +1,7 @@
 <h1 align="center">
   Gerador de conselhos
 </h1>
-Primeiro projeto usando Scss! </br>
+Primeiro projeto usando Scss e API! </br>
 O desafio foi proposto pelo FrontEnd Mentor, através <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">deste link</a> você poderá saber mais sobre o desafio.
 
 ### Tecnologias
@@ -15,5 +15,4 @@ O desafio foi proposto pelo FrontEnd Mentor, através <a href="https://www.front
 
 ### Utilidades
 
-- Será possível utilizar a porcentagem da sua escolha do valor gasto para determinar o valor da gorjeta.
-- É possível fazer o cálculo das gorjetas para uma ou mais pessoas.
+- Você poderá ler conselhos aleatoriamente!
