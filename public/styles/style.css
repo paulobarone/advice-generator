@@ -36,6 +36,9 @@ body {
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
+.advice .divider-img {
+  width: 60%;
+}
 .advice-roll {
   position: absolute;
   bottom: 0;
@@ -48,4 +51,10 @@ body {
 }
 .advice-roll:hover {
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .advice {
+    max-width: 750px;
+  }
 }/*# sourceMappingURL=style.css.map */
