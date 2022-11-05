@@ -1,7 +1,7 @@
 <h1 align="center">
   Gerador de conselhos
 </h1>
-Primeiro projeto usando Scss!
+Primeiro projeto usando Scss! </br>
 O desafio foi proposto pelo FrontEnd Mentor, através <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">deste link</a> você poderá saber mais sobre o desafio.
 
 ### Tecnologias
